@@ -1,0 +1,102 @@
+.default {
+    width: auto;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 35px;
+    border-color: #f8f9fa;
+}
+
+
+.expand{
+    width: 0%; 
+    opacity: 0;
+    animation: alternate-reverse;
+    transition: 500ms ease-in-out;
+}
+
+.expand.expanded{
+    width: 100%;
+    opacity: 1;
+}
+
+.fade-in{
+    opacity: 0;
+    transition: opacity 675ms ease-in;
+    animation: normal;
+}
+
+.fade-in.appear{
+    opacity: 1;
+}
+
+.default-big {
+    width: auto;
+    height: auto;
+    padding: 2.5%;
+    border-radius: 50px;
+    border-color: #f8f9fa;
+}
+
+.cal-padding {
+    padding: 40px;
+    border-radius: 20px;
+    border-spacing: 10px;
+    border-color: #f8f9fa;
+    background-color: cornflowerblue;
+}
+
+.bg{
+    background: url(/BoxingMatch.png);
+    height: 50%; 
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50%;
+}
+
+.container-center{
+    padding-top: 37.5%;
+    align-content: center;
+    align-self: center;
+}
+
+section{
+    box-shadow: 50px, 50px, 5px, black;
+}
+
+.bg-1{
+    background-color: #EFCB68;
+}
+
+.bg-2{
+    background-color: #AEB7B3;
+}
+
+.container-color-1{
+    padding: 10%;
+    background-color: #E1EFE6;
+}
+
+.container-color-2{
+    padding: 10%;
+    background-color: #AEB7B3;
+}
+
+.vl{
+
+}
+
+.nsection-padding{
+    padding-bottom: 60px;
+}
+
+.table-padding{
+    width: auto;
+    height: auto;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

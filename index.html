@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Chicken Faceoff</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/scrolling-nav.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/extra.css">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Optimization Project</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#measurements">Measurements</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#prediction">Prediction</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#calculations">Calculations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#analysis">Analysis</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#conclusion">Conclusion</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="text-white container-expand bg expand">
+    <div class="container-center text-center">
+      <h1 class="">Chicken Faceoff</h1>
+      <p class="lead">Optimization Project made by Bill Zhang </p>
+    </div>
+  </header>
+
+  <section id="measurements" class=" bg-2">
+    <div class="container fade-in">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Measurements</h2>
+          <p class="lead cal-padding text-light">Here are the measurements of the two contestants.</p>
+        </div>
+      </div>
+      <div class="cal-padding">
+      <table class="text-light">
+        <tr>
+          <div class="table">
+          <th>Chicken Soup Base</th>
+          </div>
+          <th>Chicken Broth</th>
+        </tr>
+        <tr>
+          <td>
+            <ul>
+              <li>Height: 5.8 inches \(\approx \) 14.732 cm</li>
+              <li>Radius: 2 inches  \(\approx \) 5.08 cm</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li>Height: 4 inches \(\approx \) 10.16 cm</li>
+              <li>Radius: 1.5 inches \(\approx \) 3.81 cm</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><img src="/chicken soup base-min.jpg" class="img-fluid default img-border"></td>
+          <td><img src="/chicken broth-min.jpg" class="img-fluid default img-border"></td>
+        </tr>
+      </table>
+      </div>
+    </div>
+  </section>
+
+<section id="prediction" class="bg-1 expand">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto ">
+          <h2 class="expand" >Prediction</h2>
+          <p class="lead cal-padding fade-in text-light">I predict that the chicken soup base can will be more 'volumed-optimized' because it's bigger.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="calculations" class="bg-2">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Calculations</h2>
+          <ul class="lead cal-padding text-light">
+            <li>Primary Equation : \(V = \pi r^2 h\) <div><i>(Volume of a cylinder)</i></div></li>
+            <li>Secondary Equation  : \(S = 2 \pi r^2 + 2 \pi h\) <div><i>(Surface area of a cylinder)</i></div> </li>
+          </ul>
+          <div class="cal-padding">
+          <table class="text-light">
+            <tr>
+              <td class=""> Surface Area: </td>
+              <td class="">$$S = {2 \pi (5.08)^2 + 2 \pi (5.08) (14.732)}$$</td>
+              <td class="">$$S = {2 \pi (3.81)^2 + 2 \pi (3.81) (10.16)}$$</td>
+            </tr>
+            <tr>
+              <td class="nsection-padding"></td>
+              <td class="nsection-padding">$$S \approx {632.4 cm^2}$$</td>
+              <td class="nsection-padding">$$S \approx {334.4 cm^2}$$</td>
+            </tr>
+            <tr>
+              <td class="">Volume: </td>
+              <td class="">$$V = {\pi (5.08)^2 (14.732)}$$</td>
+              <td class="">$$V = {\pi (3.81)^2 (10.16)}$$</td>
+            </tr>
+            <tr>
+              <td class="nsection-padding"></td>
+              <td class="nsection-padding">$$V \approx 1194.4 cm^3$$</td>
+              <td class="nsection-padding">$$V \approx 463.3 cm^3$$</td>
+            </tr>
+            <tr>
+              <td class="">Solving for h:</td>
+              <td class="container-fluid">$$632.4 = {2 \pi r^2 + 2 \pi r h}$$</td>
+              <td class="">$$334.4 = {2 \pi r^2 + 2 \pi r h}$$</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$$632.4 - 2 \pi r^2 = {2 \pi r h}$$</td>
+              <td>$$334.4 - 2 \pi r^2 = {2 \pi r h}$$</td>
+            </tr>
+            <tr>
+              <td class="nsection-padding"></td>
+              <td class="nsection-padding">$${632.4 - 2 \pi r^2 \over 2 \pi r} = {h}$$</td>
+              <td class="nsection-padding">$${334.4 - 2 \pi r^2 \over 2 \pi r} = {h}$$</td>
+            </tr>
+            <tr>
+              <td>Plugging h back to Volume: </td>
+              <td>$$V = {\pi r^2 ({632.4 - 2 \pi r^2 \over 2 \pi r})}$$</td>
+              <td>$$V = {\pi r^2 ({334.4 - 2 \pi r^2 \over 2 \pi r})}$$</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$$V = {316.2 r - \pi r^3}$$</td>
+              <td>$$V = {167.2 r - \pi r^3}$$</td>
+            </tr>
+            <tr>
+              <td class="nsection-padding"></td>
+              <td class="nsection-padding">$$V' = {316.2 - 3 \pi r^2}$$</td>
+              <td class="nsection-padding">$$V' = {167.2 - 3 \pi r^2}$$</td>
+            </tr>
+            <tr>
+              <td class="">Setting V' = 0: <div><i>(Finding when V is at max)</i></div></td>
+              <td>$$316.2 = {3 \pi r^2}$$</td>
+              <td>$$167.2 = {3 \pi r^2}$$</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$${316.2 \over 3 \pi} = {r^2}$$</td>
+              <td>$${167.2 \over 3 \pi} = {r^2}$$</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$$\sqrt {316.2 \over 3 \pi} = {r}$$</td>
+              <td>$$\sqrt {167.2 \over 3 \pi} = {r}$$</td>
+            </tr>
+            <tr>
+              <td class="nsection-padding"></td>
+              <td class="nsection-padding">$$5.8 cm \approx r$$</td>
+              <td class="nsection-padding">$$4.2 cm \approx r$$</td>
+            </tr>
+            <tr>
+              <td >Solving for h:</td>
+              <td >$$632.4 = {2 \pi (5.8)^2 + 2 \pi (5.8) h}$$</td>
+              <td >$$334.4 = {2 \pi (4.2)^2 + 2 \pi (4.2) h}$$</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$$632.4 = {67.28 \pi  + 11.6 \pi h}$$</td>
+              <td>$$334.4 = {35.28 \pi  + 8.4 \pi h}$$</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$$632.4 - 67.28 \pi = {11.6 \pi h}$$</td>
+              <td>$$334.4 - 35.28\pi = {8.4 \pi h}$$</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$${632.4 - 67.28 \pi \over 11.6 \pi}= { h}$$</td>
+              <td>$${334.4 - 35.28 \pi \over 8.4 \pi}= { h}$$</td>
+            </tr>
+            <tr>
+              <td class="nsection-padding"></td>
+              <td class="nsection-padding">$$11.6 cm \approx h$$</td>
+              <td class="nsection-padding">$$8.5 cm \approx h$$</td>
+            </tr>
+            <tr>
+              <td>Finding Maximum Volume for Each Can:</td>
+              <td>$$V = {\pi (5.8)^2 (11.6)}$$</td>
+              <td>$$V = {\pi (4.2)^2 (8.5)}$$</td>
+            </tr>
+            <tr>
+              <td class="nsection-padding"></td>
+              <td class="nsection-padding">$$V \approx 1225.9 cm^3$$</td>
+              <td class="nsection-padding">$$V \approx 471.1 cm^3$$</td>
+            </tr>
+            <tr>
+              <td>Percentage of being 'volume-optimized: </td>
+              <td>$${1194.4 cm^3 \over 1225.9 cm^3} * 100$$</td>
+              <td>$${463.33 cm^3 \over 471.1 cm^3} * 100$$</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>$$\approx 97.4 \% $$</td>
+              <td>$$\approx 98.4 \% $$</td>
+            </tr>
+          </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="analysis" class="bg-1 expand">
+    <div class="container expand">
+      <div class="row">
+        <div class="col-lg8 mx-auto">
+          <h2 class="expand">Analysis</h2>
+          <p class="lead cal-padding text-light fade-in">1. The percentages calculated in part D reflects the design of the cans, shows if they effectively used material to get the most volume within a can.</p>
+          <p class="lead cal-padding text-light fade-in">2. A can being 'volume-optimized' means that its dimensions allows the can's volume to be as big as it can be based on a given amount of materials.</p>
+          <p class="lead cal-padding text-light fade-in">3. My prediction of the chicken soup base can winning was incorrect as it was 97.4% volume-optimized and was beaten by the chicken broth being 98.4% volume-optimized. These results didn't really surpise me since I knew it would be close since companies would want to get the most out of the materials used to cut costs and gain profit.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="conclusion" >
+    <div class="container">
+      <div class="row">
+        <div class="col-lg8 mx-auto">
+          <h2 id="targetSection">Winner</h2>
+          <p class="lead"></p>
+          <div class="default">
+            <img src="/chicken broth-min.jpg" class="default-big img-fluid" id="target" style="opacity: 0;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Competitive Chicken Can Boxing League 2020</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Intersection Observers-->
+  <script src="/js/observers.js"></script>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom JavaScript for this theme -->
+  <script src="js/scrolling-nav.js"></script>
+  <script src="js/fadingIn-Out.js"></script>
+
+  <!-- Math Symbols and Equations -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.1/es5/tex-mml-chtml.js"></script>
+
+</body>
+
+</html>
