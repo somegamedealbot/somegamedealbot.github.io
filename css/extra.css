@@ -9,6 +9,14 @@
     border-color: #f8f9fa;
 }
 
+.title-font{
+    font-size: 100px;
+    mix-blend-mode: difference;
+}
+
+.footer-font{
+    font-size: 20px ;
+}
 
 .expand{
     width: 0%; 
@@ -20,6 +28,21 @@
 .expand.expanded{
     width: 100%;
     opacity: 1;
+}
+
+.img-padding{
+    padding: 60%;
+}
+
+.bg-img{
+    text-align: justify;
+    position:relative;
+    width: auto;
+    height: auto;
+    box-shadow:inset 40px 40px 40px 40px#EFCB68;
+    mix-blend-mode: multiply;
+    border-radius: 5px blur(50px);
+    border: #EFCB68;
 }
 
 .fade-in{
@@ -46,6 +69,10 @@
     border-spacing: 10px;
     border-color: #f8f9fa;
     background-color: cornflowerblue;
+}
+
+.remove-bg{
+    mix-blend-mode: multiply;
 }
 
 .bg{
@@ -100,3 +127,4 @@ section{
     padding-left: 10px;
     padding-right: 10px;
 }
+
