@@ -9,7 +9,7 @@ $(document).on('scroll', function(){
     if ($(this).scrollTop() >= $('#targetSection').position().top - 1/3 * $('#target').height() && !scrolledPast){
         console.log("Objective Reached.")
         scrolledPast = true;
-        $("#target").animate({opacity: 1}, 150, "linear");
+        $("#target").animate({opacity: 1}, 500, "linear");
     }
     
     // resets
@@ -17,7 +17,7 @@ $(document).on('scroll', function(){
             //$(this).scrollTop() > $('#targetSection').position().top - 100){
         console.log("reset.");
         scrolledPast = false;
-        $("#target").animate({opacity: 0}, 150, "linear");
+        $("#target").animate({opacity: 0}, 500, "linear");
     };
         
 })

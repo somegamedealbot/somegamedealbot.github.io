@@ -34,6 +34,14 @@
     padding: 60%;
 }
 
+<<<<<<< Updated upstream
+=======
+.table-items{
+    font-size: large;
+    text-align: center;
+}
+
+>>>>>>> Stashed changes
 .bg-img{
     text-align: justify;
     position:relative;
@@ -45,6 +53,13 @@
     border: #EFCB68;
 }
 
+<<<<<<< Updated upstream
+=======
+.font-auto{
+    font-size:inherit;
+}
+
+>>>>>>> Stashed changes
 .fade-in{
     opacity: 0;
     transition: opacity 675ms ease-in;
@@ -102,6 +117,9 @@ section{
     background-color: #AEB7B3;
 }
 
+.bg-3{
+    background-color: blueviolet;
+}
 .container-color-1{
     padding: 10%;
     background-color: #E1EFE6;
