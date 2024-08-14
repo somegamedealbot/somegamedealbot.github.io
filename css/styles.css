@@ -1,0 +1,222 @@
+
+@font-face {
+    font-family: codec;
+    src: url(/resources/ubuntu.regular.ttf);
+}
+
+:root {
+    /* --main-light-color: #D0CD94;
+    --main-dark-color: #241623; */
+    --main-light-color: #e7e7e7;
+    --main-dark-color: #353638;
+    --sub-color: #EB3838;
+}
+
+
+body {
+    font-family: codec;
+    /* font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, sans-serif; */
+    /* font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;  */
+}
+
+div, p {
+    font-weight: 300;
+}
+
+hr {
+    color: var(--sub-color);
+}
+a {
+    color: var(--main-light-color);
+}
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:focus { text-decoration: none; }
+a:hover, a:active { text-decoration: none; }
+
+html {
+    /* font-family: codec; */
+    font-weight: lighter;
+    font-size: 21px;
+}
+
+body {
+    margin: 0px;
+}
+
+footer {
+    /* background-color: #3c787e; */
+    background-color: var(--sub-color);
+    color: var(--main-light-color);
+    padding: 1em 1em;
+}
+
+footer > div > a {
+    /* text-decoration-color: #333D4D; */
+}
+
+.main-bg {
+    background-color: var(--main-dark-color);
+    width: 100%;
+    height: fit-content;
+    padding: 0 10em;
+    box-sizing: border-box;
+}
+
+.font-settings {
+    color: var(--main-light-color);
+}
+
+.navbar {
+    width: 100%;
+    background-color: var(--sub-color);
+    display: flex;
+    justify-content: space-between;
+    color: var(--main-light-color);
+    box-sizing: border-box;
+    padding: 0 1em;
+}
+
+.photo-container {
+    width: auto;
+    height: auto;
+    min-width: 10em;
+    min-height: 10em;
+    max-width: 20em;
+    max-height: 20em;
+    margin: 0 auto;
+    /* align-self: center; */
+}
+
+.photo {
+    object-fit: cover;
+    border-radius: 2em;
+    height: 100%;
+    width: 100%;
+}
+
+.introduction-section {
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--main-light-color);
+    padding-top: 3em;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+
+.spacer {
+    height: 3em;
+    width: 100%;
+}
+
+.projects-section {
+    color: var(--main-light-color);
+    box-sizing: border-box;
+    padding-bottom: 3em;
+    /* margin-left: 10em; */
+}
+
+.project-cards {
+    display: grid;
+    grid-template: auto / repeat(3, 1fr);
+    /* align-items: center; */
+    column-gap: 5em;
+    width: 100%;
+    box-sizing: border-box;
+    height: fit-content;
+}
+
+.project-card {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    height: fit-content;
+    grid-column-start: auto;
+    background-color: var(--main-light-color);
+    border-bottom-left-radius: 4%;
+    border-bottom-right-radius: 4%;
+    background-color: #333D4D;
+}
+
+.project-tags {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    row-gap: 8px;
+    margin: 0 auto;
+    padding: 0 2em;
+    padding-bottom: 1em;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.project-tag {
+    background-color: var(--sub-color);
+    color: var(--main-light-color);
+    padding: 3px 12px;
+    font-size: 16px;
+    border: var(--main-dark-color);
+    align-self: center;
+    border-radius: 16px;
+}
+
+.project-card__title {
+    padding: 1em 0;
+    text-align: center;
+    color: var(--main-dark-color);
+
+}
+
+.project-card__img {
+    width: 100%;
+    height: 100%;
+    /* max-width: 20em;
+    max-height: 18em; */
+    /* max-width: 20em;
+    max-height: 18em; */
+}
+
+.project-card__img:hover {
+
+}
+
+.project-thumbnail {
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+}
+
+.important-navs {
+    display: flex;
+    /* align-self: flex-end; */
+    align-items: center;
+    flex-direction: row;
+    column-gap: 0.5em;
+    text-decoration: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #333D4D;
+}
+
+@media screen and (max-width: 1280px) {
+    html {
+        /* font-size: 20px; */
+    }
+
+    .project-cards {
+        grid-template: repeat(3, auto) / auto;
+        row-gap: 1em;
+    }
+    
+    .main-bg {
+        padding: 0 5%;
+    }
+
+}
